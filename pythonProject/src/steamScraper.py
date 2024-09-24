@@ -69,7 +69,7 @@ def display_data_in_table(data):
     frame.pack(fill=tkinter.BOTH, expand=True)
 
     # Create Treeview for displaying the table
-    tree = ttk.Treeview(frame, columns=('Name', 'Discount', 'Old Price', 'New Price'), show='headings', height=20)
+    tree = ttk.Treeview(frame, columns=('Name', 'Discount', 'Old Price', 'New Price'), show='headings', height=24)
 
     # Define headings
     tree.heading('Name', text='Game Name')
